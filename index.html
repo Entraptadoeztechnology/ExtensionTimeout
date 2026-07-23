@@ -482,7 +482,7 @@
             const icon = document.createElement("img");
             icon.src = extIcon || "https://raw.githubusercontent.com/Entraptadoeztechnology/ExtensionTimeout/refs/heads/main/extension.png";
 	    icon.onerror = function() {
-                this.src = "https://raw.githubusercontent.com/Blobby-Boi/ExtensionTimeout/refs/heads/main/extension.png";
+                this.src = "https://raw.githubusercontent.com/Entraptadoeztechnology/ExtensionTimeout/refs/heads/main/extension.png";
             };
             icon.style.width = "32px";
             icon.style.height = "32px";
@@ -576,7 +576,7 @@
         }
 
         async function GetContributorData(){
-            let contributors = await (await fetch("https://api.github.com/repos/Blobby-Boi/ExtPrint3r/contributors")).json()
+            let contributors = await (await fetch("https://api.github.com/repos/Entraptadoeztechology/ExtensionTimeout/contributors")).json()
             return contributors
         }
         const contributorList = document.querySelector("#contributor-list")
